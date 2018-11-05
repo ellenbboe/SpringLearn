@@ -9,19 +9,20 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/std")
-public class studentController {
-    @RequestMapping(method = RequestMethod.GET)
+public class stdcontroller {
+    @RequestMapping("/")
+    public String index(){
+        return "index";
+    }
+    @RequestMapping(value = "/std",method = RequestMethod.GET)
     public ModelAndView student(){
         return new ModelAndView("student","command",new student());
     }
-
-    @RequestMapping(value = "/addStudent", method = RequestMethod.POST)
-    public String addStudent(@ModelAttribute("SpringWeb")student student,
-                             ModelMap model) {
-        model.addAttribute("name", student.getName());
-        model.addAttribute("age", student.getAge());
-        model.addAttribute("id", student.getId());
+    @RequestMapping(value = "/addstudent",method = RequestMethod.POST)
+    public String addstudent(@ModelAttribute("SpringWeb")student student, ModelMap modelMap){
+        modelMap.addAttribute("name",student.getName());
+        modelMap.addAttribute("id",student.getId());
+        modelMap.addAttribute("age",student.getAge());
         return "result";
     }
 }
