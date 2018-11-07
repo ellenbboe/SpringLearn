@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SpringMVCXml视图解析器:war exploded" />
+      <artifact name="SpringMVCHibernate验证器:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26079c1a-1b75-4260-a8be-001714e1d29f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8b835f51-b56e-4a04-b416-12524ee7f01b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SpringMVCXml视图解析器/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCXml视图解析器/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC错误处理/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC错误处理/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,43 +19,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-2025644391">
+    <session id="-421180621">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
-          <entry key="jsp" value="1" />
-          <entry key="xml" value="3" />
+          <entry key="java" value="2" />
+          <entry key="jsp" value="3" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="JSP" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="JAVA" value="2" />
+          <entry key="JSP" value="3" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="123" />
-          <entry key="jsp" value="11" />
-          <entry key="xml" value="91" />
+          <entry key="java" value="497" />
+          <entry key="jsp" value="18" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="123" />
-          <entry key="JSP" value="11" />
-          <entry key="XML" value="91" />
+          <entry key="JAVA" value="497" />
+          <entry key="JSP" value="18" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -64,47 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3402">
-              <caret line="81" selection-start-line="80" selection-end-line="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="503">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -112,8 +74,89 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="6" column="11" selection-end-line="45" selection-end-column="10" />
+            <state relative-caret-position="1495">
+              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addStudent.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beans/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-497">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/StdController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,6 +167,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
         <option value="spring-beans.schema" />
       </list>
     </option>
@@ -134,12 +178,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/beans/Student.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/StdController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addStudent.jsp" />
       </list>
     </option>
   </component>
@@ -169,7 +215,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
+    <option name="width" value="960" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -185,60 +231,68 @@
         <subPane>
           <expand>
             <path>
-              <item name="SpringMVCXml视图解析器" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCXml视图解析器" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMVCHibernate验证器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVCHibernate验证器" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringMVCXml视图解析器" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCXml视图解析器" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMVCHibernate验证器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVCHibernate验证器" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringMVCXml视图解析器" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCXml视图解析器" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMVCHibernate验证器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVCHibernate验证器" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringMVCXml视图解析器" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCXml视图解析器" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMVCHibernate验证器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVCHibernate验证器" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringMVCXml视图解析器" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCXml视图解析器" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMVCHibernate验证器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVCHibernate验证器" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCHibernate验证器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVCHibernate验证器" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringMVCXml视图解析器" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCXml视图解析器" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMVCHibernate验证器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVCHibernate验证器" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringMVCXml视图解析器" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCXml视图解析器" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMVCHibernate验证器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVCHibernate验证器" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringMVCXml视图解析器" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCXml视图解析器" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMVCHibernate验证器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVCHibernate验证器" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringMVCXml视图解析器" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCXml视图解析器" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMVCHibernate验证器" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVCHibernate验证器" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -255,18 +309,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541570151597" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541595386952" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,14 +330,14 @@
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SpringMVCXml视图解析器:war exploded">
+        <artifact name="SpringMVCHibernate验证器:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SpringMVCXml视图解析器" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SpringMVCHibernate验证器" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -299,7 +345,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="34361" />
+        <option name="DEBUG_PORT" value="45321" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -348,7 +394,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringMVCXml视图解析器:war exploded" />
+          <artifact name="SpringMVCHibernate验证器:war exploded" />
         </option>
       </method>
     </configuration>
@@ -358,26 +404,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="26079c1a-1b75-4260-a8be-001714e1d29f" name="Default Changelist" comment="" />
-      <created>1541554846696</created>
+      <changelist id="8b835f51-b56e-4a04-b416-12524ee7f01b" name="Default Changelist" comment="" />
+      <created>1541572974416</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541554846696</updated>
-      <workItem from="1541554850887" duration="2163000" />
-      <workItem from="1541568896779" duration="559000" />
-      <workItem from="1541569801730" duration="358000" />
-      <workItem from="1541570196303" duration="283000" />
+      <updated>1541572974416</updated>
+      <workItem from="1541572979229" duration="1448000" />
+      <workItem from="1541593004257" duration="2592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3363000" />
+    <option name="totallyTimeSpent" value="4040000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="32" width="1920" height="1014" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28223187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41759464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -385,22 +429,22 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32893288" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27722773" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32893288" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Hybris Console [Experimental]" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32893288" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Hybris Console [Experimental]" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33252427" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,6 +454,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,48 +464,84 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/StdController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3402">
-          <caret line="81" selection-start-line="80" selection-end-line="81" />
+        <state relative-caret-position="305">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="-497">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addStudent.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        <state relative-caret-position="476">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="6" column="11" selection-end-line="45" selection-end-column="10" />
+        <state relative-caret-position="1495">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="503">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
