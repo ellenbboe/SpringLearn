@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+
+    <title>文件页面</title>
+    <link rel="stylesheet"
+          href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" />
+    <style>
+        td,th{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container" th:if="${user} != null"><br/>
+    <div class="alert alert-success" style="text-align: center">
+        <a href="#" class="close" data-dismiss="alert"
+           aria-label="close">×</a>
+        你好,<span th:text="${user.userName}">世界</span>
+    </div>
+</div>
+<table class="table">
+    <tr>
+        <th>名称</th>
+        <th>大小</th>
+        <th></th>
+    </tr>
+    <tr th:each="file:${filelist}">
+        <td th:text="${file.filename}">11</td>
+        <td th:text="${file.size}">111</td>
+        <td><a class="btn btn-primary" th:href="${file.fileuri}" name="download">下载</a></td>
+    </tr>
+
+</table>
+<div class="container">
+    <div class="alert alert-info" style="text-align: center">
+        <span><a href="/files/upload">上传文件</a></span>
+    </div>
+</div>
+</body>
+</html>

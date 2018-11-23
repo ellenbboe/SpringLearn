@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+    <title>文件上传</title>
+    <link rel="stylesheet"
+          href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" />
+    <style>
+        body{text-align:center}
+    </style>
+</head>
+<body>
+<div class="container" style="margin: 0 auto">
+    <h1 class="h1">文件上传</h1>
+<form th:action="@{/files/upload}" method="POST" enctype="multipart/form-data" class="col m8 s12 offset-m2">
+        <input type="file" class="input-lg" id="file1" name="file" style="width:50%;margin: 0 auto">
+        <button class="btn indigo waves-effect waves-light" type="submit" th:text="UPLOAD">UPLOAD
+        <i class="mdi-content-send right"></i>
+        </button>
+</form>
+</div>
+</body>
+</html>
