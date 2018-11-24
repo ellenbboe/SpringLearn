@@ -7,6 +7,7 @@ import com.site.entity.FileEntity;
 import com.site.entity.User;
 import com.site.service.StorageService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +18,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributesModelMap;
 import javax.servlet.http.HttpServletRequest;
 @Controller
-@RequestMapping("/files")
+@RequestMapping("files")
 public class FileUploadController {
     @Autowired
     private UserRepository userRepository;
@@ -25,19 +26,19 @@ public class FileUploadController {
     private final StorageService storageService;
 //服务方法
     @Autowired
-    public FileUploadController(StorageService storageService) {
+    public FileUploadController(@Qualifier("fileSystemStorageService") StorageService storageService) {
         this.storageService = storageService;
     }
 
     //上传主页面 files/upload
-    @RequestMapping(value = "/upload",method = RequestMethod.GET)
+    @RequestMapping(value = "upload",method = RequestMethod.GET)
     public String uploadpage(HttpServletRequest request,ModelMap modelMap){
         if(request.getSession().getAttribute("user") == null){
-            return "/login/index";
+            return "login/index";
         }
 //        HttpSession session = request.getSession();
 //        modelMap.addAttribute("user",session.getAttribute("user"));
-        return "/file/upfile";
+        return "file/upfile";
     }
 
     // 文件主页面 user登录后到这里 /file/index
@@ -45,32 +46,16 @@ public class FileUploadController {
     public String index(@ModelAttribute("user") User user, ModelMap modelMap, HttpServletRequest request){
         if(request.getSession().getAttribute("user") == null&&user.getUserName() == null&&user.getPassword() == null&&
                 !userRepository.existsByuserNameAndPassword(user.getUserName(),user.getPassword())){
-            return "/login/index";
+            return "login/index";
         }
         User one = (User)request.getSession().getAttribute("user");
         modelMap.addAttribute("user",one);
         //获取上传的文件列表(数据库)
         modelMap.addAttribute("filelist",storageService.loadAllByOwenId(one.getId()));
-        return "/file/index";
+        return "file/index";
     }
-
-//上下合并
-    //获取上传的文件列表
-//    @GetMapping("/files")
-//    public String listUploadedFiles(Model model) throws IOException{
-//        model.addAttribute("files", storageService.loadAll().map(
-//                path -> MvcUriComponentsBuilder.fromMethodName(FileUploadController.class,
-//                        "serveFile", path.getFileName().toString()).build().toString())
-//                .collect(Collectors.toList()));
-//        //联系数据库
-//        return "uploadForm";
-//    }
-
-
-
-
 ////下载  将文件写到头里面
-    @GetMapping("/{filename:.+}")
+    @GetMapping("{filename:.+}")
     @ResponseBody
     public ResponseEntity<Resource> serveFile(@PathVariable String filename) {
         Resource file = storageService.loadAsResource(filename);
@@ -79,7 +64,7 @@ public class FileUploadController {
     }
 
     //上传保存文件 转到首页
-    @RequestMapping(value = "/upload",method = RequestMethod.POST)
+    @RequestMapping(value = "upload",method = RequestMethod.POST)
     public String handleFileUpload(@RequestParam("file") MultipartFile file,
                                    RedirectAttributesModelMap redirectAttributesModelMap, HttpServletRequest request) {
         User user = (User)request.getSession().getAttribute("user");

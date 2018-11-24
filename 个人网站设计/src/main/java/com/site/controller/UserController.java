@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 @Controller
-@RequestMapping("/user")
+@RequestMapping("user")
 public class UserController {
 
     @Autowired
@@ -21,7 +21,7 @@ public class UserController {
     //用户登录界面
     @GetMapping("login")
     public String login(){
-        return "/login/index";
+        return "login/index";
     }
 //post 用户登录表单信息
     @PostMapping("login")
@@ -36,7 +36,7 @@ public class UserController {
             return "redirect:/files";
         }else {
             redirectAttributesModelMap.addFlashAttribute("message","用户不存在,请联系管理员,暂不开放注册!!");
-            return "redirect:/login/index";
+            return "redirect:/user/login";
         }
     }
 }

@@ -19,10 +19,6 @@ public class MainController {
 //        return "MoviePage";
 //    }
 //
-//    @RequestMapping("/wallpaper")
-//    public String GetWallpaperPage(){
-//        return "WallPaper";
-//    }
 //
 //    @RequestMapping("/game")
 //    public String GetGamePage(){

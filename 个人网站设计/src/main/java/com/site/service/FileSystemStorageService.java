@@ -16,9 +16,25 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Stream;
 
 @Service
 public class FileSystemStorageService implements StorageService {
+    @Override
+    public List<String> load() {
+        return null;
+    }
+
+    @Override
+    public Integer filecount() {
+        return null;
+    }
+
+    @Override
+    public Map<String, String> loadAll(Integer Pagenumber) {
+        return null;
+    }
 
     @Autowired
     private FileRepository fileRepository;
@@ -53,7 +69,7 @@ public class FileSystemStorageService implements StorageService {
     }
 //获取存取的文件 可以联系数据库
 //    @Override
-//    public Stream<Path> loadAllByOwnerId() {
+//    public Stream<Path> loadAllWallpaper() {
 //        try {
 //            return Files.walk(this.rootLocation, 1)//遍历文件夹
 //                    .filter(path -> !path.equals(this.rootLocation))//条件筛选

@@ -6,6 +6,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.nio.file.Path;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Stream;
 
 public interface StorageService {
@@ -16,7 +17,13 @@ public interface StorageService {
 
     List<FileEntity> loadAllByOwenId(Integer id);
 
+    Map<String,String> loadAll(Integer Pagenum);
+
+    Integer filecount();
+
     Path load(String filename);
+
+    List<String> load();
 
     Resource loadAsResource(String filename);
 

@@ -13,7 +13,8 @@
 </head>
 <body>
 <div class="container" style="margin: 0 auto">
-    <h1 class="h1">文件上传</h1>
+    <img src="/static/images/kosmos.png" class="img-responsive" style="margin: 0 auto" alt="我的壁纸">
+    <h2 class="h2">文件上传</h2>
 <form th:action="@{/files/upload}" method="POST" enctype="multipart/form-data" class="col m8 s12 offset-m2">
         <input type="file" class="input-lg" id="file1" name="file" style="width:50%;margin: 0 auto">
         <button class="btn indigo waves-effect waves-light" type="submit" th:text="UPLOAD">UPLOAD
